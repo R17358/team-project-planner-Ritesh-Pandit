@@ -5,11 +5,6 @@ from datetime import datetime
 from project_board_base import ProjectBoardBase
 
 class ProjectBoard(ProjectBoardBase):
-    # def __init__(self):
-    #     self.boards_file = "boards.json"
-    #     if not os.path.exists(self.boards_file):
-    #         with open(self.boards_file, "w") as f:
-    #             json.dump([], f)
 
     def __init__(self, db_path="db/boards.json"):
         self.boards_file = db_path

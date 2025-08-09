@@ -34,6 +34,8 @@ It uses simple JSON files as a database for storing data, making it easy to test
 
 ## 📂 Project Structure
 
+```bash
+
 project/
 │
 ├── user.py # UserManager class
@@ -51,7 +53,7 @@ project/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 How to Run
@@ -59,7 +61,7 @@ project/
 1. **Clone the repository**
 ```bash
 
-git clone <your_repo_url>
+git clone https://github.com/R17358/team-project-planner-Ritesh-Pandit.git
 cd project
 
 ```
