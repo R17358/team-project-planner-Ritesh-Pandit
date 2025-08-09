@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local DB files
+db/
+
+# Output / generated files
+out/
+*.log
+*.tmp
+
+# Environment & config files
+.env
+*.env
+.env.*
+
+# Virtual environment
+venv/
+ENV/
+.venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Packaging
+*.egg-info/
+dist/
+build/
